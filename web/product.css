@@ -1,0 +1,180 @@
+.indicator{
+position: absolute;
+top: 16cm;
+}
+
+.top_layer{
+    background-color: #ffffff;
+    position: absolute;
+    min-height: 4cm;
+    margin-top: -2cm;
+left: 5%;
+box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+.album_cont{
+    justify-items: center;
+    visibility: hidden;
+
+}
+
+.album:hover .album_cont{
+    visibility: visible;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+  }
+
+.button{
+    background-color: #FA9483;
+    text-decoration: none;
+    padding: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 3px;
+    color: aliceblue;
+    transition: 0.6s;
+border: none;
+outline:none;
+}
+
+
+
+.button_1{
+    color: #FA9483;
+    text-decoration: none;
+   padding: 6px;
+   border-radius: 50%;
+    transition: 1s;
+
+}
+
+.button_1:hover{
+    color: #fd3339cb;
+    
+
+ 
+}
+
+.icon {
+    display: inline-flex;
+    vertical-align: middle;
+    align-items: center;
+  }
+
+.button:hover{
+    background-color: #fd3339cb;
+    color: #ffffff;
+
+ 
+}
+
+
+
+.text{
+    animation-name: a;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+
+}
+
+@keyframes a {
+    0%   {color: #ffffff;}
+    50%  {color: #fa4a50de;}
+    100%  {color: #FA9483;}
+  }
+
+  .div_dark{
+      background-color: #222; 
+      color: #ededed;
+  }
+
+  .discount{
+    border-radius: 3px;
+    padding: 6px;
+    width: fit-content;
+    animation-name: disc;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+  }
+
+
+
+  
+  @keyframes disc{
+    0%   {background-color: #e2f1b6;}
+    50%  {background-color: #fa4a50de;}
+    100%  {background-color: #FA9483;}
+  }
+
+  .card_hover:hover{
+      transition: 1.5s;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  }
+
+
+  .link_{
+    text-decoration: none;
+  
+padding: 5px 10px 5px 10px;
+    color: #161616;
+    border-radius: 15px;
+
+
+}
+
+.link_:hover,.cart_count:hover{
+    transition: 1.5s;
+    background-color: #fd3339cb;
+  color: #f9fcff;
+      background-color: #fd3339cb;
+
+
+}
+
+
+
+.cart_count{
+    text-align: center;
+    height: 42px;
+    padding: 15px; 
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 25px;
+    background-color: #fd907c;
+
+    color: whitesmoke;
+    text-decoration: none;
+
+    
+    }
+    
+    
+    
+    
+    .cart_no{
+    margin-top: -5%;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    } 
+
+    
+    .cart_no:hover{
+    color: rgb(255, 255, 255);
+    
+    }
+
+
+
+       .back{
+    color: #ededed ;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;}

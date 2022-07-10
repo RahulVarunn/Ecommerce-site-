@@ -1,0 +1,139 @@
+.img{
+    background-image: url("image/img.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    height: 500px;
+}
+
+::-webkit-scrollbar{
+    width: 0px;
+}
+
+.button{
+    background-color: #FA9483;
+    text-decoration: none;
+    padding: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 3px;
+    color: aliceblue;
+    transition: 1s;
+border: none;
+outline:none;
+}
+
+
+
+.button:hover{
+    background-color: #fd3339cb;
+    color: #ffffff;
+
+ 
+}
+
+
+
+
+
+.input_text{
+    font-size: 14px;
+}
+
+.text{
+    font-size: 18px;
+}
+
+ .div_dark{
+      background-color: #222; 
+      color: #ededed;
+  }
+  
+  
+
+
+
+
+
+
+
+
+.card_japan_ {
+    height: 500px;
+    width:400px;
+   
+    overflow: hidden;
+    content: "";
+    box-shadow: 0 0 20px 20px black inset, 0 0 20px 2px black;
+    transform: scale(50px);
+
+
+  }
+  
+  .card_japan_:after {
+    content: "";
+  
+    box-shadow: -10px -10px 30px 2px rgb(66, 65, 65) inset;
+    border-radius: 50%;
+
+  }
+  
+  .card_japan_ .image {
+    width: 200%;
+    height: 100%;
+    background: url("image/profile.jpg");
+    animation: x 10s linear alternate infinite;
+    background-size: cover;
+
+  }
+  
+
+
+  
+  @keyframes x {
+    to {
+      transform: translateX(-50%);
+    }
+  }
+
+.card_japan_ {
+    height: 500px;
+    width:400px;
+   
+    overflow: hidden;
+    content: "";
+    box-shadow: 0 0 20px 20px black inset, 0 0 20px 2px black;
+    transform: scale(50px);
+
+
+  }
+  
+  .card_japan_:after {
+    content: "";
+  
+    box-shadow: -10px -10px 30px 2px rgb(66, 65, 65) inset;
+    border-radius: 50%;
+
+  }
+  
+  .card_japan_ .image {
+    width: 200%;
+    height: 100%;
+    background: url("image/profile.jpg");
+    animation: x 10s linear alternate infinite;
+    background-size: cover;
+
+  }
+  
+
+
+  
+  @keyframes x {
+    to {
+      transform: translateX(-50%);
+    }
+  }
+  
+  
+  
+  

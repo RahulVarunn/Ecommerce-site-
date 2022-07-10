@@ -1,0 +1,98 @@
+body{
+    
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+::-webkit-scrollbar {
+    width: 0px;
+  }
+
+.image{
+    min-height: 600px;
+    background-image: url("img_homepage/img\ \(11\).jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.image_2{
+    min-height: 600px;
+    background-image: url("img_homepage/japan_2.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gallery{
+
+visibility: hidden;
+}
+
+.card_gal:hover .gallery{
+
+visibility: visible;
+
+}
+
+
+
+
+
+
+
+
+.card_japan {
+    height: 211px;
+    width: 211px;
+   
+    overflow: hidden;
+    content: "";
+    border-radius: 50%;
+    box-shadow: 0 0 20px 20px black inset, 0 0 20px 2px black;
+    transform: scale(50px);
+
+
+  }
+  
+  .card_japan:after {
+    content: "";
+  
+    box-shadow: -10px -10px 30px 2px rgb(66, 65, 65) inset;
+    border-radius: 50%;
+
+  }
+  
+  .card_japan  .image_ {
+    width: 200%;
+    height: 100%;
+    background: url(img_homepage/japan_circ.jpg);
+    animation: x 10s linear alternate infinite;
+    background-size: cover;
+
+  }
+  
+
+
+  
+  @keyframes x {
+    to {
+      transform: translateX(-50%);
+    }
+  }
+  
+
+
+        
+
+
+
+
+
+
+
+
