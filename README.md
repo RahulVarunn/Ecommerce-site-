@@ -25,3 +25,20 @@ step 2: download Xammp server and start the server and create database (Shopping
         atlast deploy  run  the project
 
 
+# Output 
+
+
+<img width="625" alt="image" src="https://user-images.githubusercontent.com/98281711/178141820-5ebf7b5e-f95f-4214-988e-3d87dbbff0c7.png">
+
+<img width="625" alt="image" src="https://user-images.githubusercontent.com/98281711/178141876-1e2fb5b7-b3f1-4294-8aaa-3877cb0d5535.png">
+
+<img width="625" alt="image" src="https://user-images.githubusercontent.com/98281711/178141890-d3c10a99-19fe-4443-99a7-a6aa20cd3d95.png">
+
+<img width="625" alt="image" src="https://user-images.githubusercontent.com/98281711/178141909-70855761-4078-47de-9dec-0a71d1bbcca7.png">
+
+<img width="625" alt="image" src="https://user-images.githubusercontent.com/98281711/178141922-66cbf8c8-a3cd-4a0c-86cf-1b13fb82d6b7.png">
+
+<img width="625" alt="image" src="https://user-images.githubusercontent.com/98281711/178141934-9954b8c3-324b-4ad1-b1af-e4965e99954d.png">
+
+<img width="625" alt="image" src="https://user-images.githubusercontent.com/98281711/178141948-c02d3eaa-3800-46a4-8ca0-0fdbfe03c679.png">
+
